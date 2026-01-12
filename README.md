@@ -1,25 +1,86 @@
-# RitoBOT
+# 🤖 RitoBOT
 
 <div align="center">
-  <img src="public/icon.png" alt="Logo" width="200">
+  <img src="public/icon.png" alt="Logo de RitoBOT" width="200">
+  
+  [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/)
+  [![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+  [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://javascript.com/)
 </div>
 
-RitoBot es un pequeño bot de whatsapp que responde a los mensajes que son enviados a el usuario. Este bor puede ser configurado a tu gusto para responder a comandos específicos o a todos los mensajes enviados.
+## 📱 ¿Qué es RitoBOT?
 
-para saber como configurar y conectarlo con tu whatsapp, consulta la documentación en el siguiente enlace:
-[Configuracion - RitoBOT]()
+RitoBOT es un **bot inteligente para WhatsApp** 🤖 que responde automáticamente a mensajes enviados por usuarios. Es completamente configurable y puedes personalizarlo para:
 
-dicho enlace te explicara como configurar el bot para que repsonda a comandos especificos,  comandos por defecto y como agregarles comandos nuevos
+- ✅ **Responder comandos específicos** 📋
+- ✅ **Automatizar tareas repetitivas** ⚡
+- ✅ **Gestionar reservas y citas** 📅
+- ✅ **Proveer información instantánea** ℹ️
+- ✅ **Integrar con otros sistemas** 🔗
 
-Puedes configurarlo y usarlo para implementar en otros proyectos. Y automatizar taras como reservas, citas, etc
+## 🚀 **Instalación Rápida**
 
-## Instalacion del repositorio
 ```bash
+# 1️⃣ Clona el repositorio
 git clone https://github.com/RitoTorri/RitoBOT.git
 
+# 2️⃣ Entra en la carpeta del proyecto
 cd RitoBOT
 
-npm install # Las dependecias pesan un buen
+# 3️⃣ Instala las dependencias
+npm install  # 📦 Las dependencias pueden tardar un momento
 ```
 
-Si encuentras algún error, puedes comentar en el issue o crear un nuevo issue.
+> ⚠️ **Nota:** Las dependencias requieren descargar Puppeteer (Chromium), lo que puede tomar algunos minutos ⏳
+
+## 📚 **Configuración y Uso**
+
+🔧 **Para configurar y conectar RitoBOT con tu WhatsApp**, consulta la guía completa:
+
+### 📖 [📘 Manual de Configuración](https://github.com/RitoTorri/RitoBot/blob/master/docs/manual_de_configuracion.md)
+
+En esta guía aprenderás:
+
+✨ **Conexión con WhatsApp** - Escanea el código QR  
+✨ **Comandos por defecto** - Respuestas preconfiguradas  
+✨ **Agregar nuevos comandos** - Personaliza a tu gusto  
+✨ **Mensajes personalizados** - Diseña tus propias respuestas  
+
+## 💡 **Casos de Uso**
+
+RitoBOT es perfecto para automatizar:
+
+| Caso de Uso | Descripción | Emoji |
+|------------|-------------|--------|
+| **📞 Atención al Cliente** | Respuestas automáticas 24/7 | 🤝 |
+| **📅 Reservas** | Gestión de citas y horarios | 🗓️ |
+| **🛒 E-commerce** | Consulta de productos y precios | 🛍️ |
+| **🎓 Educación** | FAQ para estudiantes | 📚 |
+| **🏢 Negocios** | Información corporativa | 🏢 |
+
+## 🛠️ **Características Principales**
+
+✅ **Fácil configuración** - Sin conocimientos avanzados  
+✅ **Respuestas personalizables** - Total control sobre los mensajes  
+✅ **Múltiples categorías** - Organiza comandos por temas  
+✅ **Formato WhatsApp** - Usa emojis y formato especial ✨  
+✅ **Autenticación persistente** - Solo escanea QR una vez  
+
+## 🤝 **Contribuir y Reportar Problemas**
+
+¿Encontraste un error o tienes una sugerencia?
+
+🐛 **Reporta un problema:** [Crear Issue](https://github.com/RitoTorri/RitoBOT/issues/new)  
+💡 **Sugiere una mejora:** [Discusiones](https://github.com/RitoTorri/RitoBOT/discussions)  
+⭐ **Dale una estrella** al proyecto si te fue útil
+
+---
+
+<div align="center">
+  
+**✨ Configúralo, personalízalo y hazlo tuyo ✨**
+
+[📘 Ver Documentación Completa](https://github.com/RitoTorri/RitoBot/blob/master/docs/manual_de_configuracion.md) • 
+[🐛 Reportar Problema](https://github.com/RitoTorri/RitoBOT/issues)
+
+</div>
