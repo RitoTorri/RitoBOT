@@ -39,6 +39,7 @@ Buenas noches
 Buenas
 ayuda
 comandos
+autor
 `;
 
 const autor = (data = {}) => `
