@@ -1,8 +1,12 @@
 # 🤖 Conexión del Bot con WhatsApp
 
-Después de ejecutar el programa, en la consola aparecerá un **código QR** 📱 que debes escanear con WhatsApp.  
-Luego verás el mensaje: `✅ Bot está listo y conectado!`  
-Desde otro dispositivo puedes enviar mensajes al bot y responderá automáticamente si coincide con los comandos configurados en `src/utils/messagesCategory.js`.
+1. Primero ejecuta el programa con `npm run start`.
+
+2. Después de ejecutar el programa, en la consola aparecerá un **código QR** 📱 que debes escanear con WhatsApp.  
+
+3. Luego verás el mensaje: `✅ Bot está listo y conectado!`  
+
+4. Desde otro dispositivo puedes enviar mensajes al bot y responderá automáticamente si coincide con los comandos configurados en `src/utils/messagesCategory.js`.
 
 ---
 

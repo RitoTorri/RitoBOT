@@ -20,7 +20,7 @@ const mensajeAyuda = (data = {}) => `
    ✨ *Ayuda* ✨
 ╰━━━━━━━━━━━━━━━━━━╯
 
-Si tienes alguna duda, puedes leer la documentación en el siguiente enlace:
+Si tienes alguna duda, puedes leer la documentación en el siguiente enlace: https://github.com/RitoTorri/RitoBOT/blob/master/docs/manual_de_configuracion.md
 
 ────────────────────
 `;
@@ -45,7 +45,7 @@ autor
 const autor = (data = {}) => `
 *👨‍💻 Autor*
 
-👋 Hola, soy *Jesus Cortez* desarrollador de este pequeño proyecto, si te gusta puedes dare una ⭐ en el repositorio. Ademas de seguirmer en Github. Si estas interesando en otrs proyectos puedes comunicarte conmig por estos medios.
+👋 Hola, soy *Jesus Cortez* desarrollador de este pequeño proyecto, si te gusta puedes dare una ⭐ en el repositorio. Ademas de seguirmer en Github. Si estas interesando en otrs proyectos puedes comunicarte conmigo por estos medios.
 
 1️⃣ *📧 CORREO ELECTRÓNICO*
 • cortezfrancisco025@gmail.com
