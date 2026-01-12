@@ -1,29 +1,27 @@
-import commandMessages from "../utils/commandMessages.js";
+/**
+ * 🎯 Manejador de Mensajes
+ * messagesCategory es un objeto que almacena todas las respuestas del bot. 
+ * Cada propiedad de messagesCategory son las categorias de mensajes. Informacion, saludos, etc.
+ */
+import messagesCategory from "../utils/messagesCategory.js";
+
+// Normaliza un texto eliminando acentos y caracteres especiales
+const normalizeText = (text) => text.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 
 export const handleMessage = async (message) => {
+    if (!message || message.trim() === '') return null;
+
+    // Normalizar el mensaje del usuario
+    const normalizedMessage = normalizeText(message.trim());
+
+    // Variable para almacenar la respuesta encontrada
     let response;
 
-    const minutes = new Date().getMinutes();
-    const hour = new Date().getHours();
+    for (const category of Object.values(messagesCategory)) {
+        response = category[normalizedMessage];
+        if (response) return response;
+    }
 
-    const msgLowerCase = message.toLowerCase();
-    const messageUser = msgLowerCase.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-    console.log(messageUser);
-
-    response = commandMessages.greetings[messageUser];
-    if (response) return response
-
-    response = commandMessages.optionsMenu[messageUser];
-    if (response) return response;
-
-    response = commandMessages.menu[messageUser];
-    if (response) return response;
-
-    response = commandMessages.optionsServices[messageUser];
-    if (response) return response;
-
-    // Aquí se puede agregar la condición de horario
-    //if (hour < 10 ||  hour > 17) return commandMessages.unavailable;
-    
-    else return null;
-}
+    // Si no hay coincidencia en ninguna categoría, retornar null
+    return null;
+};
