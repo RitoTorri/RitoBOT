@@ -66,6 +66,12 @@ RitoBOT es perfecto para automatizar:
 ✅ **Formato WhatsApp** - Usa emojis y formato especial ✨  
 ✅ **Autenticación persistente** - Solo escanea QR una vez  
 
+## 🛠️ **FLujo de Respuestas de RitoBOT**
+
+<div align="center">
+  <img src="public/Flujo de RitoBot.jpg" alt="Flujo de Respuestas de RitoBOT" width="600">
+</div>
+
 ## 🤝 **Contribuir y Reportar Problemas**
 
 ¿Encontraste un error o tienes una sugerencia?
