@@ -8,7 +8,7 @@ const client = new Client({
     authStrategy: new LocalAuth(),
     puppeteer: {
         headless: true,  // Ejecuta Chrome en modo sin cabeza
-        args: ['--no-sandbox', '--disable-setuid-sandbox']
+        args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-extensions']
     }
 });
 
@@ -41,7 +41,13 @@ client.on("message", async (message) => {
         try {
             const response = await handleMessage(message.body);
             if (response !== null) {
+                const chat = await message.getChat();
+
+                await chat.sendStateTyping();
+                await new Promise(resolve => setTimeout(resolve, 3000));
+
                 await message.reply(response);
+                await chat.clearState();
             } else {
                 console.log("❌ No se encontró ninguna respuesta para el mensaje:", message.body);
             }

@@ -4,7 +4,9 @@
   "description": "Bot para automatización de respuestas de WhatsApp",
   "main": "src/index.js",
   "scripts": {
-    "start" : "node src/index.js"
+    "start": "node src/index.js",
+    "docker:build": "docker compose -f docker-compose.yml build",
+    "docker:run": "docker compose -f docker-compose.yml up"
   },
   "keywords": [],
   "author": {

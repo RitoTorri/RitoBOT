@@ -1,0 +1,10 @@
+services:
+  bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ritobot_image
+    container_name: production_ritobot
+    volumes:
+      - ./sesion_prod:/app/.wwebjs_auth
+    restart: always

@@ -33,6 +33,38 @@ npm install  # 📦 Las dependencias pueden tardar un momento
 
 > ⚠️ **Nota:** Las dependencias requieren descargar Puppeteer (Chromium), lo que puede tomar algunos minutos ⏳
 
+## 🚀 **Cómo ejecutar el bot**
+
+#### 💻 Ejecutar en tu computadora (Local)
+
+Ideal si estás modificando el código constantemente.
+
+```bash
+npm start
+```
+
+#### 🐳 Ejecutar en Docker (Entorno de producción)
+
+Ideal para servidores o entornos productivos. Necesitas tener Docker instalado. Cualquier cambio en el código requerirá volver a construir la imagen.
+
+```bash
+# 1. Construye la imagen (Solo la primera vez o tras cambios en el código)
+npm run docker:build
+
+# 2. Levanta el contenedor
+npm run docker:run
+```
+
+#### ⚠️ Cambio de Entorno
+Si decides cambiar de Local a Docker (o viceversa), debes limpiar el estado previo para evitar conflictos de sesión. Ejecuta estos comandos en bash:
+
+```bash
+# Elimina archivos de sesión antiguos
+rm -rf sesion_prod .wwebjs_auth .wwebjs_cache
+```
+
+Una vez limpiados, puedes ejecutar el bot en el entorno deseado con los comandos correspondientes.
+
 ## 📚 **Configuración y Uso**
 
 🔧 **Para configurar y conectar RitoBOT con tu WhatsApp**, consulta la guía completa:
