@@ -109,7 +109,6 @@ RitoBOT es perfecto para automatizar:
 ¿Encontraste un error o tienes una sugerencia?
 
 🐛 **Reporta un problema:** [Crear Issue](https://github.com/RitoTorri/RitoBOT/issues/new)  
-💡 **Sugiere una mejora:** [Discusiones](https://github.com/RitoTorri/RitoBOT/discussions)  
 ⭐ **Dale una estrella** al proyecto si te fue útil
 
 ---
